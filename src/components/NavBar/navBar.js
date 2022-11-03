@@ -9,7 +9,7 @@ function navBar() {
             <div id="nav-logo">
                 <img src={ovbhLOGO} alt="OVBH logo" />
             </div>
-            <Nav id="nav-links">
+            <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>
@@ -35,6 +35,8 @@ function navBar() {
                         <Link to="/insurance" className="header-nav-tab">Insurance</Link>
                     </Nav.Link>
                 </Nav.Item>
+            </Nav>
+            <Nav id="contact-nav-link">
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/contact" className="header-nav-tab">Contact</Link>

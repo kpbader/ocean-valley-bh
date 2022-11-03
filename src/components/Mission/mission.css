@@ -1,0 +1,15 @@
+#mission-top {
+  background-image: url("../../assets/images/nick-rickert-Rwzig53ABeE-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+#mission-top h2 {
+  color: white;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding: 30px;
+}

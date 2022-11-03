@@ -1,13 +1,15 @@
 #nav-bar {
     display: flex;
     background-color: white;
-    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #nav-logo {
-    height: 30%;
-    width: 30%;
+    height: 25%;
+    width: 25%;
     padding: 10px;
+    margin: 0px;
 }
 
 #nav-logo img {
@@ -15,19 +17,31 @@
     width: 75%;
 }
 
-#nav-links {
+#main-nav-links {
     display: flex;
     align-items: center;
 }
 
-#nav-links a {
+#main-nav-links a {
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
     color: #006699;
 }
 
-#nav-links a:hover {
+#main-nav-links a:hover {
+    color: silver;
+    transition: 0.3s ease;
+}
+
+#contact-nav-link a{
+    font-size: 20px;
+    text-decoration: none;
+    color: #006699;
+    padding: 40px;
+}
+
+#contact-nav-link a:hover {
     color: silver;
     transition: 0.3s ease;
 }

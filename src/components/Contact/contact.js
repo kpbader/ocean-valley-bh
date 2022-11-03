@@ -15,7 +15,7 @@ function Contact() {
     return (
         <section id="contact-page">
             <Fade up>
-                <h1>Contact</h1>
+                <p id="contact-page-header">Contact</p>
             </Fade>
             <div id="contact-container">
                 <Fade left>

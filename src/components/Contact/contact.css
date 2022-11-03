@@ -5,12 +5,13 @@
   background-size: cover;
 }
 
-#contact-page h1 {
+#contact-page-header {
     color: white;
     font-size: 50px;
     display: flex;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px;
+    margin: 0px;
 }
 
 #contact-container {
