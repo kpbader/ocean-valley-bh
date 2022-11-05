@@ -1,15 +1,115 @@
 #treatment-top {
-  background-image: url("../../assets/images/ian-schneider-XJfHMPJ0e-g-unsplash.jpg");
+  background-image: url("../../assets/images/coastal-dark_overlay1.jpg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px; 
+    padding: 75px;
 }
 
 #treatment-top h2 {
-    color: white;
-    font-size: 40px;
-    display: flex;
-    justify-content: center;
-    margin: 0px; 
-    padding: 30px;
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+#treatment-top p {
+  width: 50%;
+  font-size: 20px;
+}
+
+#treatmentTwo {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+}
+
+#treatmentTwo img {
+  width: 40%;
+  height: 40%;
+}
+
+#treatmentTwo-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: #006699;
+  width: 50%;
+}
+
+#treatmentThree {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  background-color: #006699;
+  /* background-image: linear-gradient(#006699, white); */
+}
+
+#treatmentThree img {
+  width: 45%;
+  height: 45%;
+}
+
+#treatmentThree-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: white;
+  width: 40%;
+}
+
+#treatmentFour {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+}
+
+#treatmentFour img {
+  width: 45%;
+  height: 45%;
+}
+
+#treatmentFour-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: #006699;
+  width: 40%;
+}
+
+#treatmentFive {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  align-items: center;
+  background-color: #006699;
+}
+
+#treatmentFive img {
+  width: 45%;
+  height: 45%;
+}
+
+#treatmentFive-text {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  color: white;
+  width: 40%;
+}
+
+#bottom-contact-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: url('../../assets/images/AdobeStock_285583509.jpeg');
+  background-position: center;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
 }
