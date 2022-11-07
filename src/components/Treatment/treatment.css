@@ -106,7 +106,7 @@
 
 #bottom-contact-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around !important;
   align-items: center;
   background-image: url('../../assets/images/AdobeStock_285583509.jpeg');
   background-position: center;

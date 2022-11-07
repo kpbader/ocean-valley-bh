@@ -1,15 +1,58 @@
 #insurance-top {
-  background-image: url("../../assets/images/AdobeStock_194404871.jpeg");
+  background-image: url("../../assets/images/AdobeStock_293755970.jpeg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  /* margin: 0px !important; */
 }
 
-#insurance-top h2 {
+#insurance-top-text {
+  width: 40%;
+  padding: 50px;
+}
+
+#insurance-top-text h2 {
   color: white;
   font-size: 40px;
+  font-weight: lighter;
+}
+
+#insurance-top-text p {
+  font-size: 20px;
+  color: white;
+}
+
+#insurance-logos {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  margin: 0px;
-  padding: 30px;
+  align-items: center;
+  padding: 50px;
+}
+
+#insurance-logos img {
+  padding: 50px;
+  height: 15%;
+  width: 15%;
+}
+
+
+#insurance-contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 75px;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+#insurance-contact-form-header {
+  color: white;
+  font-size: 30px;
+}
+
+#insurance-map {
+  margin: 75px;
 }

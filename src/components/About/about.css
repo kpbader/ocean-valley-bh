@@ -1,15 +1,22 @@
 #about-top {
-  background-image: url("../../assets/images/AdobeStock_293755970.jpeg");
+  background-image: url("../../assets/images/AdobeStock_194404871.jpeg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
 }
 
-#about-top h2 {
+#about-top-text {
+  padding: 75px;
+}
+
+#about-top-text h2 {
   color: white;
   font-size: 40px;
-  display: flex;
-  justify-content: center;
-  margin: 0px;
-  padding: 30px;
+  font-weight: lighter;
+}
+
+#about-top-text p {
+  color: white;
+  font-size: 25px;
+  margin: 0px !important;
 }

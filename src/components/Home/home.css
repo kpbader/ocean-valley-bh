@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 #our-services h3 {
@@ -30,14 +30,41 @@
 }
 
 #our-services-cards {
-    display: flex;
-  justify-content: center;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #our-services-cards .card {
-    text-align: center;
-  margin: 25px;
+  text-align: center;
+  margin: 50px;
   padding: 0px 30px 30px 30px;
-  color: rgb(75, 212, 137);
-  font-size: 30px;
+  color: #006699;
+  font-size: 25px;
+  width: 75%;
 }
+
+.service-icon {
+  font-size: 50px;
+}
+
+#learn-more-btn {
+  background-color:#006699;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+#learn-more-btn a {
+  text-decoration: none !important;
+    color: white;
+}
+
+#learn-more-btn:hover {
+  background-color: silver;
+  transition: 0.5s ease;
+}
+
