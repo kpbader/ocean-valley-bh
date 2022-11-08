@@ -1,7 +1,7 @@
 #nav-bar {
     display: flex;
     background-color: white;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -20,6 +20,7 @@
 #main-nav-links {
     display: flex;
     align-items: center;
+    /* width: 50%; */
 }
 
 #main-nav-links a {
@@ -30,18 +31,6 @@
 }
 
 #main-nav-links a:hover {
-    color: silver;
-    transition: 0.3s ease;
-}
-
-#contact-nav-link a{
-    font-size: 20px;
-    text-decoration: none;
-    color: #006699;
-    padding: 40px;
-}
-
-#contact-nav-link a:hover {
     color: silver;
     transition: 0.3s ease;
 }

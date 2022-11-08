@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade';
 import moonlightOne from "../../assets/images/xpanda.jpg";
 import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.jpg";
 import sunsetRoad from "../../assets/images/sunset-road.jpg";
-import playa from "../../assets/images/playa.jpeg";
+// import playa from "../../assets/images/playa.jpeg";
 import playaTwo from "../../assets/images/playa2.jpg";
 import { useState, useRef } from 'react';
 

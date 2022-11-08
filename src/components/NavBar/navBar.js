@@ -35,8 +35,6 @@ function navBar() {
                         <Link to="/insurance" className="header-nav-tab">Insurance</Link>
                     </Nav.Link>
                 </Nav.Item>
-            </Nav>
-            <Nav id="contact-nav-link">
                 <Nav.Item>
                     <Nav.Link>
                         <Link to="/contact" className="header-nav-tab">Contact</Link>
