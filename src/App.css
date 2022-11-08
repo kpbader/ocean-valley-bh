@@ -31,6 +31,7 @@
 
   #our-services-cards {
     flex-direction: column;
+    align-items: center;
   }
 
   #our-services-cards .card {
@@ -46,6 +47,11 @@
   align-items: center;
 }
 
+#contact-container {
+  justify-content: center !important;
+  align-items: center;
+}
+
 #contact-form {
   width: 50%;
 }
@@ -54,7 +60,7 @@
   width: 100%;
 }
 
-#info-and-map {
+#google-map {
   display: none;
 }
 
@@ -116,20 +122,93 @@
 }
 
 /* CONTACT */
+#contact-info {
+  display: none;
+}
 
+#google-map {
+  display: none;
+}
 
 }
 
 /* Portrait tablets and large phones, 600px + */
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 768px) {
 
+  /* NAV */
+  #nav-bar {
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+  }
+
+
+  /* HOME */
+
+  #info-and-map {
+    display: none;
+  }
+
+  /* TREATMENT */
+
+  #treatmentTwo-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentTwo-text p {
+    font-size: 10px;
+  }
+
+  #treatmentThree-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentThree-text p {
+    font-size: 10px;
+  }
+
+  #treatmentFour-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentFour-text p {
+    font-size: 10px;
+  }
+
+  #treatmentFive-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentFive-text p {
+    font-size: 12px;
+  }
+
+  #treatmentFive-text li {
+    font-size: 10px;
+  }
+
+
+
+  /* INSURANCE */
+
+
+  #insurance-map {
+    display: none;
+  }
+
+#insurance-logos img {
+  height: 50% !important;
+  width: 50% !important;
 }
 
-/* Landscape tablets, 768px + */
-/* @media only screen and (min-width: 768px) and (max-width: 979px) {
+};
 
-}
+/* Landscape tablets, 769px + */
+ /* @media only screen and (max-width: 940px) {
 
-@media only screen and (min-width: 980px) and (max-width: 1024px) {
+
+
+} */
+
+/* @media only screen and (min-width: 980px) and (max-width: 1024px) {
 
 } */
