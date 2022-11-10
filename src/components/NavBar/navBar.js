@@ -12,7 +12,7 @@ function navBar() {
             <Nav id="main-nav-links">
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>
+                        <Link to="/" className="header-nav-tab">Home</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
