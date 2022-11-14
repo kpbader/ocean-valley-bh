@@ -12,6 +12,13 @@
     padding-bottom: 25px;
   }
 
+  #nav-logo {
+    height: 70% !important;
+    width: 70% !important;
+    display: flex;
+    justify-content: center !important;
+  }
+
   #main-nav-links {
     flex-wrap: wrap;
     justify-content: center;
@@ -130,6 +137,13 @@
   display: none;
 }
 
+/* FOOTER */
+
+#footer-logo img{
+  height: 100% !important;
+  width: 100% !important;
+}
+
 }
 
 /* Portrait tablets and large phones, 600px + */
@@ -140,7 +154,12 @@
     flex-wrap: wrap;
     padding-bottom: 25px;
   }
-
+#nav-logo {
+  height: 50% !important;
+    width: 50% !important;
+    display: flex;
+    justify-content: center !important;
+};
 
   /* HOME */
 
