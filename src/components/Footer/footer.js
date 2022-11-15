@@ -25,7 +25,7 @@ function Footer() {
             <Nav id="footer-navLinks">
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
+                        <Link to="/ocean-valley-bh" className="footer-nav-tab" onClick={scrollToTop}>Home</Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
