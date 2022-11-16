@@ -38,7 +38,7 @@ function Insurance() {
                     <img src={unitedH} alt="anthem logo" />
                 </div>
                 </Fade>
-            <div id="bottom-contact-container">
+            <div id="insurance-contact-container">
                 <Fade left>
                     <form id="insurance-contact-form">
                         <p id="insurance-contact-form-header">Don't see your provider? Reach out to us for further verification.</p>
