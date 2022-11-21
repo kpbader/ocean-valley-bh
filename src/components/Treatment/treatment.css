@@ -11,13 +11,17 @@
     padding: 75px;
 }
 
-#treatment-top h2 {
+#treatment-top h1 {
   font-size: 40px;
   font-weight: lighter;
 }
 
 #treatment-top p {
   width: 50%;
+  font-size: 22px;
+}
+
+#treatment-top li {
   font-size: 20px;
 }
 
@@ -29,16 +33,24 @@
 }
 
 #treatmentTwo img {
-  width: 40%;
-  height: 40%;
+  width: 50%;
+  height: 50%;
+  border-top: 2px solid #006699;
+  border-bottom: 2px solid #006699;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #treatmentTwo-text {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   color: #006699;
-  width: 50%;
+  width: 40%;
+}
+
+#treatmentTwo-text h2 {
+  /* font-size: 30px; */
+  font-weight: lighter;
 }
 
 #treatmentThree {
@@ -53,6 +65,10 @@
 #treatmentThree img {
   width: 45%;
   height: 45%;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #treatmentThree-text {
@@ -61,6 +77,10 @@
   /* justify-content: flex-end; */
   color: white;
   width: 40%;
+}
+
+#treatmentThree-text h2 {
+  font-weight: lighter;
 }
 
 #treatmentFour {
@@ -113,4 +133,90 @@
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
+  padding: 50px;
 }
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #treatment-top p {
+    width: 100% !important;
+  }
+  
+  #treatmentTwo img {
+    display: none;
+  }
+  
+  #treatmentTwo {
+    padding: 0px !important;
+  }
+  
+  #treatmentThree img {
+    display: none;
+  }
+  
+  #treatmentThree {
+    padding: 0px !important;
+  }
+  
+  #treatmentFour img {
+    display: none;
+  }
+  
+  #treatmentFour {
+    padding: 0px !important;
+  }
+  
+  #treatmentFive img {
+    display: none;
+  }
+  
+  #treatmentFive {
+   padding: 20px !important;
+  }
+
+}
+
+/* Portrait tablets and large phones */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  #treatmentTwo-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentTwo-text p {
+    font-size: 10px;
+  }
+
+  #treatmentThree-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentThree-text p {
+    font-size: 10px;
+  }
+
+  #treatmentFour-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentFour-text p {
+    font-size: 10px;
+  }
+
+  #treatmentFive-text h3 {
+    font-size: 15px;
+  }
+
+  #treatmentFive-text p {
+    font-size: 12px;
+  }
+
+  #treatmentFive-text li {
+    font-size: 10px;
+  }
+}
+
+/* Landscape tablets, 769px + */
+@media only screen and (min-width: 769px) and (max-width: 940px) {
+
+}
+

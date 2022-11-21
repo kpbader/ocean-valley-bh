@@ -46,7 +46,6 @@
   background-size: cover;
 }
 
-
 #insurance-contact-form {
   display: flex;
   flex-direction: column;
@@ -66,4 +65,62 @@
 
 #insurance-map {
   margin: 75px;
+}
+
+/* Extra small devices */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  #insurance-top-text {
+    width: 75%;
+  }
+
+  #insurance-logos img {
+    height: 100% !important;
+    width: 100% !important;
+  }
+
+  #insurance-contact-form {
+    margin: 50px;
+  }
+
+  #insurance-map {
+    display: none;
+  }
+}
+
+/* Portrait tablets and large phones, 600px + */
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+  #insurance-top {
+    background-position: bottom;
+  }
+
+  #insurance-map {
+    display: none;
+  }
+
+  #insurance-logos img {
+    height: 50% !important;
+    width: 50% !important;
+  }
+}
+
+/* Landscape tablets, 769px + */
+@media only screen and (min-width: 769px) and (max-width: 940px) {
+
+  #insurance-top {
+    background-position: bottom;
+  }
+
+  #insurance-logos img {
+    height: 30% !important;
+    width: 30% !important;
+  }
+
+  #insurance-contact-container {
+    flex-direction: column;
+  }
+
+  /* #insurance-map {
+    margin: 0px;
+  } */
 }

@@ -8,48 +8,24 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 
 function NavBar() {
 
-// offCanvas 
-const [show, setShow] = useState(false);
-const handleClose = () => setShow(false);
-const handleShow = () => setShow(true);
-// const onClick = () => setShow(true);
+    // offCanvas 
+    const [show, setShow] = useState(false);
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    // const onClick = () => setShow(true);
 
     return (
         <section id="nav-bar">
-            <div id="nav-logo">
-                <img src={ovbhLOGO} alt="OVBH logo" />
-            </div>
+
+            <img src={ovbhLOGO} alt="OVBH logo" />
+
             <Nav id="main-nav-links">
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/treatment" className="header-nav-tab">Treatment</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/mission" className="header-nav-tab">Mission</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/about" className="header-nav-tab">About</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/insurance" className="header-nav-tab">Insurance</Link>
-                    </Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link>
-                        <Link to="/contact" className="header-nav-tab">Contact</Link>
-                    </Nav.Link>
-                </Nav.Item>
+                <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>
+                <Link to="/treatment" className="header-nav-tab">Treatment</Link>
+                <Link to="/mission" className="header-nav-tab">Mission</Link>
+                <Link to="/about" className="header-nav-tab">About</Link>
+                <Link to="/insurance" className="header-nav-tab">Insurance</Link>
+                <Link to="/contact" className="header-nav-tab">Contact</Link>
             </Nav>
 
             <Button id="hamburger-btn" className="openbtn" onClick={handleShow}>

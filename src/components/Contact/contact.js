@@ -14,10 +14,10 @@ function Contact() {
 
     return (
         <section id="contact-page">
-            <Fade up>
+            {/* <Fade up>
                 <p id="contact-page-header">Contact</p>
-            </Fade>
-            <div id="contact-container">
+            </Fade> */}
+            <div id="cp-contact-container">
                 <Fade left>
                     <form id="contact-form">
                         <p id="hp-contact-form-header">Reach Out</p>

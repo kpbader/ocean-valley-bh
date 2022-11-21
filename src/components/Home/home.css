@@ -3,68 +3,240 @@
   width: 100%;
 }
 
-#home-splash h2 {
+#home-splash {
+  background-color: white;
+}
+
+#home-splash-text {
   position: absolute;
-  top: 60%;
-  right: 60%;
-  transform: translate(50%, 50%);
+  top: 70%;
+  right: 55%;
+  
+}
+
+#home-splash-text h2 {
   font-size: 40px;
   font-weight: lighter;
   color: white;
-  padding-left: 50px;
+}
+
+#home-splash-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+}
+
+#home-splash-btn a {
+  text-decoration: none !important;
+    color: #006699;
+}
+
+#home-splash-btn:hover {
+  background-color: silver;
+  transition: 0.5s ease;
+}
+
+#choose-us {
+  display: flex;
+  align-items: center;
+  background-color: #006699;
+  padding: 75px;
+}
+
+#choose-us-text {
+  color: white;
+  padding: 25px;
+}
+
+#choose-us-text h3 {
+  font-size: 40px;
+  /* border: 2px solid;
+  border-radius: 10px; */
+  
+  font-weight: lighter;
+}
+
+/* #choose-us-icon {
+  font-size: 60px;
+} */
+
+#choose-us-text p {
+  font-size: 25px;
+}
+
+#choose-us-text h4 {
+  font-size: 25px;
+  font-weight: normal;
+}
+
+#choose-us-text li {
+  font-size: 20px;
+  
+}
+
+#choose-us-btn {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+#choose-us-btn a {
+  text-decoration: none !important;
+    color: #006699;
+}
+
+#choose-us-btn:hover {
+  background-color: silver;
+  transition: 0.5s ease;
+}
+
+#choose-us img {
+  height: 45%;
+  width: 45%;
+  padding: 25px;
 }
 
 #our-services {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: center; */
+  background-image: url(../../assets/images/tom-carroll-white-overaly.jpg);
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
 }
 
 #our-services h3 {
-  font-size: 30px;
+  font-size: 44px;
   color: #006699;
-  border: 2px solid;
-  border-radius: 10px;
+  /* border: 2px solid;
+  border-radius: 10px; */
   padding: 20px !important;
+  font-weight: lighter;
 }
 
 #our-services-cards {
   display: flex;
-  justify-content: space-evenly;
+justify-content: space-between !important;
+padding-left: 60px;
 }
 
 #our-services-cards .card {
   text-align: center;
-  margin: 50px;
+  margin: 40px;
   padding: 0px 30px 30px 30px;
   color: #006699;
-  font-size: 25px;
-  width: 75%;
+  font-size: 30px;
+  
 }
 
 .service-icon {
   font-size: 50px;
 }
 
-#learn-more-btn {
+.link-btn {
   background-color:#006699;
   border: none;
   border-radius: 5px;
   padding: 12px;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 20px;
-  margin-bottom: 50px;
+  margin: 40px;
 }
 
-#learn-more-btn a {
+.link-btn a {
   text-decoration: none !important;
     color: white;
 }
 
-#learn-more-btn:hover {
-  background-color: silver;
+.link-btn:hover {
+  background-color: #013a57;
   transition: 0.5s ease;
 }
 
+#contact-form h4 {
+  font-size: 20px;
+  color: white;
+  font-weight: lighter;
+}
+
+@media only screen and (max-width: 768px) {
+
+  #home-splash-text {
+    display: none;
+  }
+
+  #our-services {
+    justify-content: center !important;
+    text-align: center;
+  }
+
+
+  #our-services-cards {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px !important;
+  }
+
+  #our-services-cards .card {
+    margin: 0px !important;
+  }
+
+  #choose-us button{
+    margin-left: 20px;
+  }
+
+  #choose-us img {
+    display: none !important;
+  }
+
+  #google-map {
+    padding: 25px;
+  }
+
+
+}
+
+/* Landscape tablets, 769px + */
+@media only screen and (min-width: 769px) and (max-width: 940px) {
+  
+  #home-splash-text {
+    position: absolute;
+    top: 25%;
+    right: 44%;
+    
+  }
+
+  #home-splash-text h2 {
+    font-size: 30px;
+  }
+
+  #home-splash-btn {
+    padding: 8px;
+  }
+
+#our-services-cards {
+  padding-left: 10px;
+}
+
+/* #our-services button {
+
+} */
+
+#choose-us img {
+  display: none;
+}
+
+#google-map {
+  padding: 25px;
+}
+  
+}

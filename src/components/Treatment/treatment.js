@@ -20,8 +20,14 @@ function Treatment() {
 
             <div id="treatment-top">
                 <Fade up>
-                    <h2>Treatment</h2>
-                    <p>Ocean Valley Behavioral Health  Residential Treatment Program consists of a minimum of 25 hours per week of clinical treatment hours. This is designed with a "resident-centered approach" that promotes both a higher level of resident support, as well as a higher level of accountability. This phase of treatment typically follows detoxification. All group therapy sessions are facilitated by licensed/certified treatment professionals. Some groups maybe co-facilitated by a registered intern under the supervision of licensed/certified professional. </p>
+                    <h1>Treatment</h1>
+                    <p>We work with you to create a personalized treatment plan based on the information shared at intake, during the bio-psych-social assessment, and through ongoing through individual sessions and family sessions by identifying a few key factors:</p>
+
+                    <li>Statement of problems to be addressed</li>
+                    <li>Set forth objectives to address each problem</li>
+                    <li>Steps for us to take to accomplish these objectives together</li>
+                    <li>Set forth desired target dates to execute these goals</li>
+
                 </Fade>
             </div>
             <div id="treatmentTwo">
@@ -30,37 +36,57 @@ function Treatment() {
                 </Fade>
                 <Fade right>
                     <div id="treatmentTwo-text">
-                        <h3>Incidental Medical Services (IMS)</h3>
-                        <p>Incidental Medical Services (IMS) are services provided at Ocean Valley Behavioral Health    address medical issues associated with either detoxification or the provision of addiction treatment services to assist in the enhancement those treatment services. IMS does not include the provision of general primary medical care.  All IMS delivered at Ocean Valley Behavioral Health    are related to the residents’ process of moving into long-term recovery. See IMS Policy and Procedure for specific details about this service. </p>
-                        <h3>Chemical Dependency Education Group</h3>
-                        <p>In this group, a variety of topics are discussed on a rotating basis.  Residents are educated in the areas of the disease model of chemical dependency, cross addiction, introduction to 12-step support groups and other informative subjects to help the resident develop and improve their dysfunctional living patterns. </p>
-                        <h3>Relapse Prevention</h3>
-                        <p>Information is presented regarding signs and symptoms of relapse. The residents are encouraged to identify and share possible alternative behaviors and how to avoid situations which may trigger relapse. </p>
-                        <h3>Emotions Management</h3>
-                        <p>A weekly group that targets self-esteem, anger management, emotional control, motivations, human behavior and how thoughts, experiences, and actions affect our own emotions. </p>
-                        <h3>Individual Journal Writing</h3>
-                        <p>Residents are encouraged to write about individual situations to help them identify thoughts and feelings.  This identification will assist them in gaining new insights. Residents will also utilize this in individual sessions to process with therapist and counselor. </p>
+                        <h2>Get the Treatment That's Right For You</h2>
+                        <p>With a higher level of resident support and accountability, our resident-centered approach advances the healing of you. Once you complete detoxification, your treatment starts with a minimum 25 hours of clinical treatment per week.</p>
+                        <p>*All of our group therapy sessions are facilitated by licensed/certified treatment professionals. Some groups may be co-facilitated by a registered intern under the supervision of a licensed/certified professional</p>
+                        
+                        <h2>Address Your Emotions</h2>
+                        <p>Weekly group sessions with an emphasis on increasing self-esteem. Stay ready for whatever life throws at your by discovering how your thoughts, experiences, and behavior affect your emotions.</p>
+                       
+                        <h2>Prevent Relapse</h2>
+                        <p>The ability to recognize the signs and symptoms of relapse is an important way to prevention. We helpy you identify and learn about alternate behavioral patterns, so you can avoid situations that may trigger a relapse.</p>
+                        
+                        <h2>Strengthen Family Dynamics</h2>
+                        <p>Family members and others in your support system are encouraged to participate in group and individual counseling. Recovery is also a chance for you and your loved ones to process how addiction affects everyone in a support system.</p>
+                        
+                        <h2>Monitor Your Progress</h2>
+                        <p>We keep your treatment plan documented in a secure digital archive and update it every 30 days as you meet your objectives or your needs change.</p>
+                    
+                        <h2>Incidental Medical Services (IMS)</h2>
+                        <p>Access to Incidental Medical Services to address medical issues associated with detoxification and the provision of addiction treatment while you focus on long-term recovery.</p>
+                        <p>*Ocean Valley IMS does not include the provision of general primary medical care.</p>
                     </div>
                 </Fade>
             </div>
             <div id="treatmentThree">
                 <Fade left>
                     <div id="treatmentThree-text">
-                        <h3>Process Group</h3>
-                        <p>This group meets weekly, in conjunction with Topic Discussion.  The approach is interactive, and members are encouraged to talk about the problems they have and give feedback to others. The group emphasizes interpersonal relationships and the sharing of feelings. </p>
-                        <h3>Topic Discussion</h3>
-                        <p>This group is an open and interactive format that allows residents to share on a topic for the day and provide feedback to peers when appropriate. </p>
-                        <h3>Individual Counseling and Therapy Sessions</h3>
-                        <p>All individual therapy sessions are done with a fully licensed MFT/LCSW or similar background. All counseling sessions are done with a certified drug/alcohol treatment counselor. Residents participate in a minimum of 2 hours of individual counseling/therapy per week. Each resident will have a primary counselor that is a certified drug and alcohol treatment counselor with whom resident will meet with for 1 hour a week. Additionally, each resident will have a primary therapist with whom they will meet with for 1 hour a week. </p>
-                        <h3>Family Dynamics</h3>
-                        <p>Family members and/or other significant persons in each resident’s primary support system are encouraged to participate in group process and individual counseling session. This is where healing commences as the family and resident process feelings surrounding the affect addiction has had on the entire support system.</p>
+                        <h2>12-Step Group Support</h2>
+                        <p>Begin your healing at our premier recovery facility, with a treatment protocol rooted in a 12-step approach that encourages you to attend dally AA and NA meetings, including options to attend additional Al-Anon (Co-Dependents Anonymous) meetings for those who may benefit.</p>
+                        
+                        <h2>Individual Counseling and Therapy Sessions</h2>
+                        <p>Every week, you will meet with your own primary certified drug and alcohol treatment counselor, as well as a prmary therapist.</p>
+                        <p>*All individual therapy and counseling sessions are done with a certified drug/alcohol treatment counselor and full-licensed MFT/LCSW or similar.</p>
+                        
+                        <h2>Daily Discussion</h2>
+                        <p>Join an open and interactive discussion of the "Topic of the Day" where you can speak your mind and provide feedback for your peers.</p>
+                        
+                        <h2>Weekly Group Discussion</h2>
+                        <p>Along with Topic Discussion, get a chance to share your thoughts and deliver feedback to others in a safe and interactive group setting each week.</p>
+                   
+                        <h2>Learn About Chemical Dependency</h2>
+                        <p>Join in group discussion on a variety of topics, including chemical dependency, cross-addiction, 12-step support groups, and more. Develop better habits and improve dysfunctional patterns in your life.</p>
+
+                        <h2>Individual Journaling</h2>
+                        <p>Putting your thoughts down on paper can help you gain new insights into your emotions, thoughts, and feelings. Also utilized in individual sessions with your therapist and counselor to help identify and process your feelings.</p>
+                    
                     </div>
                 </Fade>
                 <Fade right>
                     <img src={veniceCanal} alt="Venice Canals" />
                 </Fade>
             </div>
-            <div id="treatmentFour">
+            {/* <div id="treatmentFour">
                 <Fade left>
                     <img src={sunsetRoad} alt="sunset road" />
                 </Fade>
@@ -78,8 +104,8 @@ function Treatment() {
                         <p>Ocean Valley Behavioral Health    is a 12-Step based facility that encourages residents attend daily meetings as part of the treatment protocol and recovery effort. Residents go to both A.A. & N.A with an occasional option to attend Al-anon (Codependents Anonymous) meetings when residents may benefit. </p>
                     </div>
                 </Fade>
-            </div>
-            <div id="treatmentFive">
+            </div> */}
+            {/* <div id="treatmentFive">
                 <Fade left>
                     <div id="treatmentFive-text">
                         <h3>Recreational Activities</h3>
@@ -100,7 +126,7 @@ function Treatment() {
                 <Fade right>
                     <img src={playaTwo} atl="beach" />
                 </Fade>
-            </div>
+            </div> */}
             <div id="bottom-contact-container">
                 <Fade left>
                     <form id="contact-form">
