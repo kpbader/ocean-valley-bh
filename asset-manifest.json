@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ocean-valley-bh/static/css/main.f05c4bcb.css",
-    "main.js": "/ocean-valley-bh/static/js/main.c59dffdd.js",
+    "main.css": "/ocean-valley-bh/static/css/main.7be1a751.css",
+    "main.js": "/ocean-valley-bh/static/js/main.34e724ec.js",
     "static/js/787.c7e97707.chunk.js": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js",
     "static/media/jt-footage.mp4": "/ocean-valley-bh/static/media/jt-footage.2c586cd3561f779698db.mp4",
     "static/media/jt-stillshot.jpeg": "/ocean-valley-bh/static/media/jt-stillshot.859e450ab53dd6b97457.jpeg",
@@ -9,11 +9,14 @@
     "static/media/AdobeStock_285583509.jpeg": "/ocean-valley-bh/static/media/AdobeStock_285583509.3a343c9b42a0c4ae2646.jpeg",
     "static/media/coastal-dark_overlay1.jpg": "/ocean-valley-bh/static/media/coastal-dark_overlay1.c99184f9aba634256146.jpg",
     "static/media/nick-rickert-Rwzig53ABeE-unsplash.jpg": "/ocean-valley-bh/static/media/nick-rickert-Rwzig53ABeE-unsplash.b0894cb7a3d03d0c72a3.jpg",
+    "static/media/tom-carroll-white-overaly.jpg": "/ocean-valley-bh/static/media/tom-carroll-white-overaly.c8cab8d441b26ff2be82.jpg",
+    "static/media/matt-jones-dgLp5y_Jhuw-unsplash.jpg": "/ocean-valley-bh/static/media/matt-jones-dgLp5y_Jhuw-unsplash.5be79db1482c391e2fef.jpg",
     "static/media/roberto-nickson-b650UcXvYUk-unsplash.jpg": "/ocean-valley-bh/static/media/roberto-nickson-b650UcXvYUk-unsplash.34f549c79c664b8a5f66.jpg",
     "static/media/sunset-road.jpg": "/ocean-valley-bh/static/media/sunset-road.f4d7c09f7bbbbf652324.jpg",
     "static/media/playa2.jpg": "/ocean-valley-bh/static/media/playa2.69fd4e91751552e1e8cf.jpg",
     "static/media/AdobeStock_293755970.jpeg": "/ocean-valley-bh/static/media/AdobeStock_293755970.c755b14fc877a1d60498.jpeg",
     "static/media/xpanda.jpg": "/ocean-valley-bh/static/media/xpanda.aa8ec14ea22ef28549f2.jpg",
+    "static/media/pawan-thapa-38dVG7wNAow-unsplash.jpg": "/ocean-valley-bh/static/media/pawan-thapa-38dVG7wNAow-unsplash.537a653bdf4eb47d5723.jpg",
     "static/media/ovbh_placeholder-1-01.png": "/ocean-valley-bh/static/media/ovbh_placeholder-1-01.0cd6fc57e045c6472ccf.png",
     "static/media/bluecross-blueshield-simple-modern-therapy-logo.png": "/ocean-valley-bh/static/media/bluecross-blueshield-simple-modern-therapy-logo.56a2b29ee5649d0f6cee.png",
     "static/media/Cigna_logo.svg.png": "/ocean-valley-bh/static/media/Cigna_logo.svg.ff3f6e8fda9f8d5606b2.png",
@@ -22,12 +25,12 @@
     "static/media/United-Healthcare-Logo.png": "/ocean-valley-bh/static/media/United-Healthcare-Logo.9dce2462c02ddc36d849.png",
     "static/media/Anthem-Inc-logo.png": "/ocean-valley-bh/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/ocean-valley-bh/index.html",
-    "main.f05c4bcb.css.map": "/ocean-valley-bh/static/css/main.f05c4bcb.css.map",
-    "main.c59dffdd.js.map": "/ocean-valley-bh/static/js/main.c59dffdd.js.map",
+    "main.7be1a751.css.map": "/ocean-valley-bh/static/css/main.7be1a751.css.map",
+    "main.34e724ec.js.map": "/ocean-valley-bh/static/js/main.34e724ec.js.map",
     "787.c7e97707.chunk.js.map": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f05c4bcb.css",
-    "static/js/main.c59dffdd.js"
+    "static/css/main.7be1a751.css",
+    "static/js/main.34e724ec.js"
   ]
 }
