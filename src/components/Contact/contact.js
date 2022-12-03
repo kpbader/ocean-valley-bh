@@ -45,7 +45,7 @@ function Contact() {
                             </div>
                             <div className="contact-info-line">
                                 <BsTelephone />
-                                <p>(657) 356-4684</p>
+                                <p>(323) 792-0605</p>
                             </div>
                             <div className="contact-info-line">
                                 <SlLocationPin />

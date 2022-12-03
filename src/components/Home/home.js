@@ -29,7 +29,7 @@ function Home() {
                 <video src={splashVid} autoPlay muted loop playsInline className='video-bg' />
                 <Fade up>
                     <div id="home-splash-text">
-                        <h2>Find healing and peace of mind</h2>
+                        <h2>Healing. Recovery. Peace of mind.</h2>
                         <button id="home-splash-btn">
                             <Link to="/contact">Get Help Now</Link>
                         </button>
