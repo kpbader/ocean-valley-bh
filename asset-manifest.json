@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ocean-valley-bh/static/css/main.7be1a751.css",
-    "main.js": "/ocean-valley-bh/static/js/main.f3472581.js",
+    "main.js": "/ocean-valley-bh/static/js/main.70ada724.js",
     "static/js/787.c7e97707.chunk.js": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js",
     "static/media/jt-footage.mp4": "/ocean-valley-bh/static/media/jt-footage.2c586cd3561f779698db.mp4",
     "static/media/jt-stillshot.jpeg": "/ocean-valley-bh/static/media/jt-stillshot.859e450ab53dd6b97457.jpeg",
@@ -12,8 +12,6 @@
     "static/media/tom-carroll-white-overaly.jpg": "/ocean-valley-bh/static/media/tom-carroll-white-overaly.c8cab8d441b26ff2be82.jpg",
     "static/media/matt-jones-dgLp5y_Jhuw-unsplash.jpg": "/ocean-valley-bh/static/media/matt-jones-dgLp5y_Jhuw-unsplash.5be79db1482c391e2fef.jpg",
     "static/media/roberto-nickson-b650UcXvYUk-unsplash.jpg": "/ocean-valley-bh/static/media/roberto-nickson-b650UcXvYUk-unsplash.34f549c79c664b8a5f66.jpg",
-    "static/media/sunset-road.jpg": "/ocean-valley-bh/static/media/sunset-road.f4d7c09f7bbbbf652324.jpg",
-    "static/media/playa2.jpg": "/ocean-valley-bh/static/media/playa2.69fd4e91751552e1e8cf.jpg",
     "static/media/AdobeStock_293755970.jpeg": "/ocean-valley-bh/static/media/AdobeStock_293755970.c755b14fc877a1d60498.jpeg",
     "static/media/xpanda.jpg": "/ocean-valley-bh/static/media/xpanda.aa8ec14ea22ef28549f2.jpg",
     "static/media/pawan-thapa-38dVG7wNAow-unsplash.jpg": "/ocean-valley-bh/static/media/pawan-thapa-38dVG7wNAow-unsplash.537a653bdf4eb47d5723.jpg",
@@ -26,11 +24,11 @@
     "static/media/Anthem-Inc-logo.png": "/ocean-valley-bh/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/ocean-valley-bh/index.html",
     "main.7be1a751.css.map": "/ocean-valley-bh/static/css/main.7be1a751.css.map",
-    "main.f3472581.js.map": "/ocean-valley-bh/static/js/main.f3472581.js.map",
+    "main.70ada724.js.map": "/ocean-valley-bh/static/js/main.70ada724.js.map",
     "787.c7e97707.chunk.js.map": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7be1a751.css",
-    "static/js/main.f3472581.js"
+    "static/js/main.70ada724.js"
   ]
 }
