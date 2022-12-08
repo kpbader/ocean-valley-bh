@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/ocean-valley-bh/static/css/main.7be1a751.css",
-    "main.js": "/ocean-valley-bh/static/js/main.70ada724.js",
+    "main.js": "/ocean-valley-bh/static/js/main.6f5dfb82.js",
     "static/js/787.c7e97707.chunk.js": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js",
-    "static/media/jt-footage.mp4": "/ocean-valley-bh/static/media/jt-footage.2c586cd3561f779698db.mp4",
     "static/media/jt-stillshot.jpeg": "/ocean-valley-bh/static/media/jt-stillshot.859e450ab53dd6b97457.jpeg",
     "static/media/AdobeStock_194404871.jpeg": "/ocean-valley-bh/static/media/AdobeStock_194404871.bc7d6f8b19669a2fdf53.jpeg",
+    "static/media/jt-footage.mp4": "/ocean-valley-bh/static/media/jt-footage.f020fd0d230449fc75e8.mp4",
     "static/media/AdobeStock_285583509.jpeg": "/ocean-valley-bh/static/media/AdobeStock_285583509.3a343c9b42a0c4ae2646.jpeg",
     "static/media/coastal-dark_overlay1.jpg": "/ocean-valley-bh/static/media/coastal-dark_overlay1.c99184f9aba634256146.jpg",
     "static/media/nick-rickert-Rwzig53ABeE-unsplash.jpg": "/ocean-valley-bh/static/media/nick-rickert-Rwzig53ABeE-unsplash.b0894cb7a3d03d0c72a3.jpg",
@@ -24,11 +24,11 @@
     "static/media/Anthem-Inc-logo.png": "/ocean-valley-bh/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/ocean-valley-bh/index.html",
     "main.7be1a751.css.map": "/ocean-valley-bh/static/css/main.7be1a751.css.map",
-    "main.70ada724.js.map": "/ocean-valley-bh/static/js/main.70ada724.js.map",
+    "main.6f5dfb82.js.map": "/ocean-valley-bh/static/js/main.6f5dfb82.js.map",
     "787.c7e97707.chunk.js.map": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7be1a751.css",
-    "static/js/main.70ada724.js"
+    "static/js/main.6f5dfb82.js"
   ]
 }
