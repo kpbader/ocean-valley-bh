@@ -3,7 +3,7 @@ import splashVid from "../../assets/video/jt-footage.mp4";
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-// import { HiUserGroup } from "react-icons/hi";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHandHoldingHeart, FaBriefcaseMedical, FaSwimmer } from "react-icons/fa";
 import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.jpg";
 import BottomContact from '../Bottom-Contact/bottom-contact';
@@ -41,27 +41,21 @@ function Home() {
                             <FaHandHoldingHeart className="service-icon" />
                             <Card.Body>
                                 <Card.Title>Recovery</Card.Title>
-                                {/* <Card.Text>
-                                    Therapy and support groups for mental health disorders
-                                </Card.Text> */}
+                            
                             </Card.Body>
                         </Card>
                         <Card>
                             <FaSwimmer className="service-icon" />
                             <Card.Body>
                                 <Card.Title>Recreation</Card.Title>
-                                {/* <Card.Text>
-                                    Compassionate staff that is dedicated to your success
-                                </Card.Text> */}
+                                
                             </Card.Body>
                         </Card>
                         <Card>
                             <FaBriefcaseMedical className="service-icon" />
                             <Card.Body>
                                 <Card.Title>Rehabilitation</Card.Title>
-                                {/* <Card.Text>
-                                    Evidence-based practices that give you the best chance of recovery
-                                </Card.Text> */}
+                    
                             </Card.Body>
                         </Card>
                     </div>
@@ -74,7 +68,7 @@ function Home() {
                 <Fade left>
                     <div id="choose-us-text">
                         <h3>Why Choose Ocean Valley?</h3>
-                        {/* <FaLaptopMedical className="service-icon" id="choose-us-icon" /> */}
+                        
                         <p>A safe, fun, engaging approach to sobriety. Join in activities with the Ocean Valley community:</p>
                         <h4>Group Events</h4>
                         <li>Picnics/BBQs</li>
@@ -95,7 +89,7 @@ function Home() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={recreation} alt="recreation"/>
+                    <LazyLoadImage src={recreation} alt="recreation"/>
                 </Fade>
             </div>
         <BottomContact />

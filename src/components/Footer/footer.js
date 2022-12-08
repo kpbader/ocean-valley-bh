@@ -2,7 +2,7 @@ import "./footer.css";
 import footerLOGO from "../../assets/images/ovbh_placeholder-1-01.png";
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-// import { SlLocationPin } from "react-icons/sl";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Footer() {
 
@@ -16,12 +16,8 @@ function Footer() {
     return (
         <section id="footer">
             <div id="footer-logo">
-                <img src={footerLOGO} alt="footer logo" />
+                <LazyLoadImage src={footerLOGO} alt="footer logo" />
             </div>
-            {/* <div id="footer-contact-info">
-                <SlLocationPin />
-                <p>13961 Mauve Dr. Santa Ana, CA 92705</p>
-            </div> */}
             <Nav id="footer-navLinks">
                 <Nav.Item>
                     <Nav.Link>

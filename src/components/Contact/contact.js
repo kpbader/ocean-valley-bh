@@ -1,6 +1,5 @@
 import "./contact.css";
 import Fade from 'react-reveal/Fade';
-// import Card from 'react-bootstrap/Card';
 import { BsEnvelope, BsTelephone } from 'react-icons/bs';
 import { SlLocationPin } from "react-icons/sl";
 import { useState, useRef } from 'react';
@@ -14,9 +13,6 @@ function Contact() {
 
     return (
         <section id="contact-page">
-            {/* <Fade up>
-                <p id="contact-page-header">Contact</p>
-            </Fade> */}
             <div id="cp-contact-container">
                 <Fade left>
                     <form id="contact-form">

@@ -5,6 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function NavBar() {
 
@@ -17,7 +18,7 @@ function NavBar() {
     return (
         <section id="nav-bar">
 
-            <img src={ovbhLOGO} alt="OVBH logo" />
+            <LazyLoadImage src={ovbhLOGO} alt="OVBH logo" />
 
             <Nav id="main-nav-links">
                 <Link to="/ocean-valley-bh" className="header-nav-tab">Home</Link>

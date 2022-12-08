@@ -2,10 +2,8 @@ import "./treatment.css";
 import Fade from 'react-reveal/Fade';
 import moonlightOne from "../../assets/images/xpanda.jpg";
 import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.jpg";
-// import sunsetRoad from "../../assets/images/sunset-road.jpg";
-// import playa from "../../assets/images/playa.jpeg";
 import BottomContact from '../Bottom-Contact/bottom-contact';
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Treatment() {
 
@@ -26,7 +24,7 @@ function Treatment() {
             </div>
             <div id="treatmentTwo">
                 <Fade left>
-                    <img src={moonlightOne} alt="moonlight landscape" />
+                    <LazyLoadImage src={moonlightOne} alt="moonlight landscape" />
                 </Fade>
                 <Fade right>
                     <div id="treatmentTwo-text">
@@ -77,50 +75,9 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={veniceCanal} alt="Venice Canals" />
+                    <LazyLoadImage src={veniceCanal} alt="Venice Canals" />
                 </Fade>
             </div>
-            {/* <div id="treatmentFour">
-                <Fade left>
-                    <img src={sunsetRoad} alt="sunset road" />
-                </Fade>
-                <Fade right>
-                    <div id="treatmentFour-text">
-                        <h3>Recovery and Treatment Planning</h3>
-                        <p>Ocean Valley Behavioral Health ensures that all residents are actively involved in developing treatment plans. The treatment plan developed includes the following: </p>
-                        <ol>1. Statement of problems experienced by resident that are to be addressed. </ol>
-                        <ol>2. Statement of objectives to be reached that address each problem. </ol>
-                        <ol>3. Steps that will be taken by Ocean Valley Behavioral Health staff and/or resident to accomplish the identified objectives.</ol>
-                        <ol>4. Target dates for accomplishing these steps and objectives.</ol>
-                        <p>The treatment plan is based up the information given at intake, during bio-psych-social assessment, and ongoing through individual sessions with resident and family sessions. These plans are updated and amended every 30 days or as resident needs change, or objectives are met.</p>
-                        <p>These treatment plans are created and kept in resident documentation program, which is a secure, web-based documentation system.</p>
-                        <h3>12-Step Support Groups</h3>
-                        <p>Ocean Valley Behavioral Health    is a 12-Step based facility that encourages residents attend daily meetings as part of the treatment protocol and recovery effort. Residents go to both A.A. & N.A with an occasional option to attend Al-anon (Codependents Anonymous) meetings when residents may benefit. </p>
-                    </div>
-                </Fade>
-            </div> */}
-            {/* <div id="treatmentFive">
-                <Fade left>
-                    <div id="treatmentFive-text">
-                        <h3>Recreational Activities</h3>
-                        <p>Ocean Valley Behavioral Health    promotes fun in sobriety. Residents learn how to develop interests and hobbies that do not include drugs or alcohol. Organized activities may include but are not limited to:</p>
-                        <li>Movies</li>
-                        <li>Horseback Riding</li>
-                        <li>Walks</li>
-                        <li>Bowling</li>
-                        <li>Water activities (Weather permitting</li>
-                        <li>Frisbee Golf</li>
-                        <li>Miniature Golf</li>
-                        <li>Laser Tag</li>
-                        <li>Local Sports Events</li>
-                        <li>Hiking</li>
-                        <li>Sober Events (Picnics, BBQ's, Chili Cookoffs, etc.</li>
-                    </div>
-                </Fade>
-                <Fade right>
-                    <img src={playaTwo} atl="beach" />
-                </Fade>
-            </div> */}
             <BottomContact />
         </section>
     )
