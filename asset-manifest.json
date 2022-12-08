@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ocean-valley-bh/static/css/main.7be1a751.css",
-    "main.js": "/ocean-valley-bh/static/js/main.6f5dfb82.js",
+    "main.js": "/ocean-valley-bh/static/js/main.00ce469d.js",
     "static/js/787.c7e97707.chunk.js": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js",
     "static/media/jt-stillshot.jpeg": "/ocean-valley-bh/static/media/jt-stillshot.859e450ab53dd6b97457.jpeg",
     "static/media/AdobeStock_194404871.jpeg": "/ocean-valley-bh/static/media/AdobeStock_194404871.bc7d6f8b19669a2fdf53.jpeg",
@@ -24,11 +24,11 @@
     "static/media/Anthem-Inc-logo.png": "/ocean-valley-bh/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/ocean-valley-bh/index.html",
     "main.7be1a751.css.map": "/ocean-valley-bh/static/css/main.7be1a751.css.map",
-    "main.6f5dfb82.js.map": "/ocean-valley-bh/static/js/main.6f5dfb82.js.map",
+    "main.00ce469d.js.map": "/ocean-valley-bh/static/js/main.00ce469d.js.map",
     "787.c7e97707.chunk.js.map": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7be1a751.css",
-    "static/js/main.6f5dfb82.js"
+    "static/js/main.00ce469d.js"
   ]
 }
