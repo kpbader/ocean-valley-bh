@@ -89,7 +89,7 @@ function Home() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <LazyLoadImage src={recreation} alt="recreation"/>
+                    <LazyLoadImage id="choose-us-image" src={recreation} alt="recreation"/>
                 </Fade>
             </div>
         <BottomContact />

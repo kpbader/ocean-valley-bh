@@ -49,19 +49,14 @@
 #choose-us-text {
   color: white;
   padding: 25px;
+  width: 50%;
 }
 
 #choose-us-text h3 {
   font-size: 40px;
-  /* border: 2px solid;
-  border-radius: 10px; */
-  
   font-weight: lighter;
 }
 
-/* #choose-us-icon {
-  font-size: 60px;
-} */
 
 #choose-us-text p {
   font-size: 25px;
@@ -97,10 +92,11 @@
   transition: 0.5s ease;
 }
 
-#choose-us img {
-  height: 45%;
-  width: 45%;
-  padding: 25px;
+#choose-us-image {
+  height: 800px;
+  width: 600px;
+  padding: 50px;
+  
 }
 
 #our-services {
@@ -190,6 +186,10 @@ padding-left: 60px;
     margin: 0px !important;
   }
 
+  #choose-us-text {
+    width: 100%;
+  }
+
   #choose-us button{
     margin-left: 20px;
   }
@@ -211,7 +211,7 @@ padding-left: 60px;
   #home-splash-text {
     position: absolute;
     top: 25%;
-    right: 44%;
+    right: 40%;
     
   }
 

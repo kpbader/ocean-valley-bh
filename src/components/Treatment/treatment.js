@@ -24,7 +24,7 @@ function Treatment() {
             </div>
             <div id="treatmentTwo">
                 <Fade left>
-                    <LazyLoadImage src={moonlightOne} alt="moonlight landscape" />
+                    <LazyLoadImage src={moonlightOne} alt="moonlight landscape"/>
                 </Fade>
                 <Fade right>
                     <div id="treatmentTwo-text">

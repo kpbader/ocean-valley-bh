@@ -62,8 +62,8 @@
 }
 
 #aboutTwo img {
-  width: 50%; 
-  height: 50%;
+  width: 700px; 
+  height: 450px;
   border-top: 2px solid #006699;
   border-bottom: 2px solid #006699;
   padding-top: 50px;
@@ -104,21 +104,13 @@
   }
 
   #aboutTwo img {
-    width: 100% !important;
-    height: 100% !important;
+    width: 600px;
+    height: 300px;
   }
 }
 
 /* Landscape tablets, 769px + */
 @media only screen and (min-width: 769px) and (max-width: 940px) {
-  /* #aboutTwo img {
-    width: 100% !important; 
-    height: 100% !important;
-    border-top: 2px solid #006699;
-    border-bottom: 2px solid #006699;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  } */
 
   #aboutTwo {
     padding: 50px;
