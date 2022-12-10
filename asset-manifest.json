@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ocean-valley-bh/static/css/main.50717e6b.css",
-    "main.js": "/ocean-valley-bh/static/js/main.0a7b53bf.js",
+    "main.css": "/ocean-valley-bh/static/css/main.d37b700c.css",
+    "main.js": "/ocean-valley-bh/static/js/main.af013c45.js",
     "static/js/787.c7e97707.chunk.js": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js",
     "static/media/jt-stillshot.jpeg": "/ocean-valley-bh/static/media/jt-stillshot.859e450ab53dd6b97457.jpeg",
     "static/media/AdobeStock_194404871.jpeg": "/ocean-valley-bh/static/media/AdobeStock_194404871.bc7d6f8b19669a2fdf53.jpeg",
@@ -23,12 +23,12 @@
     "static/media/United-Healthcare-Logo.png": "/ocean-valley-bh/static/media/United-Healthcare-Logo.9dce2462c02ddc36d849.png",
     "static/media/Anthem-Inc-logo.png": "/ocean-valley-bh/static/media/Anthem-Inc-logo.97c429ae10389f929f91.png",
     "index.html": "/ocean-valley-bh/index.html",
-    "main.50717e6b.css.map": "/ocean-valley-bh/static/css/main.50717e6b.css.map",
-    "main.0a7b53bf.js.map": "/ocean-valley-bh/static/js/main.0a7b53bf.js.map",
+    "main.d37b700c.css.map": "/ocean-valley-bh/static/css/main.d37b700c.css.map",
+    "main.af013c45.js.map": "/ocean-valley-bh/static/js/main.af013c45.js.map",
     "787.c7e97707.chunk.js.map": "/ocean-valley-bh/static/js/787.c7e97707.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50717e6b.css",
-    "static/js/main.0a7b53bf.js"
+    "static/css/main.d37b700c.css",
+    "static/js/main.af013c45.js"
   ]
 }
