@@ -24,7 +24,7 @@ function Home() {
                 <video src={splashVid} autoPlay muted loop playsInline className='video-bg' />
                 <Fade up>
                     <div id="home-splash-text">
-                        <h2>Healing. Recovery. Peace of mind.</h2>
+                        <h2>Find Healing. Find Recovery. Find Peace of mind.</h2>
                         <button id="home-splash-btn">
                             <Link to="/contact">Get Help Now</Link>
                         </button>
@@ -67,8 +67,8 @@ function Home() {
             <div id="choose-us">
                 <Fade left>
                     <div id="choose-us-text">
-                        <h3>Why Choose Ocean Valley?</h3>
-                        
+                        <h3>Why Choose Us?</h3>
+                        <p>Crafting personalized recovery treatment programs through proven healing practices.</p>
                         <p>A safe, fun, engaging approach to sobriety. Join in activities with the Ocean Valley community:</p>
                         <h4>Group Events</h4>
                         <li>Picnics/BBQs</li>

@@ -21,8 +21,8 @@ function About() {
                 <Fade up>
                     <div id="about-top-text">
                         <h2>Our Philosophy</h2>
-                        <p>Ocean Valley Behavioral Health provides a quiet, calm, and safe place to begin your journey of healing. We believe that in order to reduce the occurrence and prevalence of substance abuse and other behavioral health problems among adults through the provision of addiction treatment services.</p>
-                        <p>We understand that each individual must be empowered to make decisions about their care with the expected outcome of increased quality of life. That's where our team comes in. Helping you team up with a support system and treatment program that works for you.</p>
+                        <p>Ocean Valley Behavioral Health provides a quiet, calm, and safe place to journey towards healing. We believe that in reducing substance abuse and other behavioral health complications among adults by providing addiction treatment services.</p>
+                        <p>We understand each person must be empowered to make the right decisions about their care and improve your quality of life. That's why our team focuses on getting you set up with the right treatment program that works for you.</p>
                     </div>
                 </Fade>
             </div>
@@ -33,7 +33,7 @@ function About() {
                 <Fade right>
                     <div id="aboutTwo-text">
                         <h2>Our Services</h2>
-                        <p>See here for a full breakdown of our treatments and services.</p>
+                        <p>See the full breakdown of our treatments and services.</p>
                         <button>
                             <Link to="/treatment" onClick={scrollToTop}>Treatment</Link>
                         </button>
