@@ -15,9 +15,7 @@ function Footer() {
 
     return (
         <section id="footer">
-            <div id="footer-logo">
-                <LazyLoadImage src={footerLOGO} alt="footer logo" />
-            </div>
+                <LazyLoadImage id="footer-logo" src={footerLOGO} alt="footer logo" />
             <Nav id="footer-navLinks">
                 <Nav.Item>
                     <Nav.Link>

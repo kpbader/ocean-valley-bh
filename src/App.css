@@ -38,9 +38,9 @@
 
 /* FOOTER */
 
-#footer-logo img{
-  height: 100% !important;
-  width: 100% !important;
+#footer-logo {
+  width: 275px !important;
+  height: 50px !important;
 }
 
 }
@@ -50,7 +50,3 @@
 
 
 };
-
-/* @media only screen and (min-width: 980px) and (max-width: 1024px) {
-
-} */
