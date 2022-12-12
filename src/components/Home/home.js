@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHandHoldingHeart, FaBriefcaseMedical, FaSwimmer } from "react-icons/fa";
-import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.jpg";
+import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.webp";
 import BottomContact from '../Bottom-Contact/bottom-contact';
 
 

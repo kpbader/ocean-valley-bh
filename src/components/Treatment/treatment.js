@@ -1,7 +1,7 @@
 import "./treatment.css";
 import Fade from 'react-reveal/Fade';
-import moonlightOne from "../../assets/images/xpanda.jpg";
-import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.jpg";
+import moonlightOne from "../../assets/images/xpanda.webp";
+import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.webp";
 import BottomContact from '../Bottom-Contact/bottom-contact';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 

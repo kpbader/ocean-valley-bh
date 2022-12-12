@@ -1,5 +1,5 @@
 #treatment-top {
-  background-image: url("../../assets/images/coastal-dark_overlay1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../assets/images/ian-schneider-XJfHMPJ0e-g-unsplash.webp");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -122,18 +122,6 @@
   /* justify-content: flex-end; */
   color: white;
   width: 40%;
-}
-
-#bottom-contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around !important;
-  align-items: center;
-  background-image: url('../../assets/images/AdobeStock_285583509.jpeg');
-  background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  padding: 50px;
 }
 
 /* Extra small devices */

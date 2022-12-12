@@ -1,5 +1,5 @@
 #insurance-top {
-  background-image: url("../../assets/images/AdobeStock_293755970.jpeg");
+  background-image: url("../../assets/images/AdobeStock_293755970.webp");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -34,37 +34,6 @@
   padding: 50px;
   height: 15%;
   width: 15%;
-}
-
-#insurance-contact-container {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background-image: url("../../assets/images/jt-stillshot.jpeg");
-  background-position: center;
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-}
-
-#insurance-contact-form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  margin: 75px;
-  border: 1px solid white;
-  border-radius: 10px;
-  padding: 40px;
-  backdrop-filter: blur(20px);
-}
-
-#insurance-contact-form-header {
-  color: white;
-  font-size: 30px;
-}
-
-#insurance-map {
-  margin: 75px;
 }
 
 /* Extra small devices */
