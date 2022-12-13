@@ -158,13 +158,11 @@ padding-left: 60px;
   transition: 0.5s ease;
 }
 
-#contact-form h4 {
-  font-size: 20px;
-  color: white;
-  font-weight: lighter;
-}
-
 @media only screen and (max-width: 768px) {
+
+  #home-page video {
+    display: none;
+  }
 
   #home-splash-text {
     display: none;
@@ -216,11 +214,12 @@ padding-left: 60px;
   }
 
   #home-splash-text h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   #home-splash-btn {
-    padding: 8px;
+    padding: 5px;
+    font-size: 15px;
   }
 
 #our-services-cards {

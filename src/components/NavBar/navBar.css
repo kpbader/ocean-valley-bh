@@ -164,10 +164,14 @@ element.style {
   }
 
   #nav-bar img {
-    width: 300px;
-    height: 100px;
+    width: 250px; 
+    height: 80px;
     display: flex;
     justify-content: center !important;
+  }
+
+  #main-nav-links a {
+    font-size: 18px;
   }
 }
 
@@ -175,5 +179,10 @@ element.style {
 @media only screen and (min-width: 769px) and (max-width: 940px) {
   #main-nav-links a {
     font-size: 15px;
+  }
+
+  #nav-bar img {
+    width: 250px; 
+    height: 70px;
   }
 }
