@@ -1,6 +1,6 @@
 import "./contact.css";
 import Fade from 'react-reveal/Fade';
-import { BsEnvelope, BsTelephone } from 'react-icons/bs';
+import { BsTelephone } from 'react-icons/bs';
 import { SlLocationPin } from "react-icons/sl";
 import ContactForm from '../Contact-Form/contact-form';
 
@@ -15,10 +15,6 @@ function Contact() {
                 <Fade right>
                     <div id="info-and-map">
                         <div id="contact-info">
-                            <div className="contact-info-line">
-                                <BsEnvelope />
-                                <p>hphipps@rodeorecovery.biz</p>
-                            </div>
                             <div className="contact-info-line">
                                 <BsTelephone />
                                 <p>(323) 792-0605</p>

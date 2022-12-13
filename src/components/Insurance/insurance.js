@@ -4,8 +4,9 @@ import anthem from "../../assets/images/Anthem-Inc-logo.png";
 import beacon from "../../assets/images/beacon-logo.png";
 import blueCross from "../../assets/images/bluecross-blueshield-simple-modern-therapy-logo.png";
 import cigna from "../../assets/images/Cigna_logo.svg.png";
-import MHN from "../../assets/images/MHN_insurance_logo-1280x720.jpeg";
-import molina from "../../assets/images/kisspng-molina-healthcare-of-michigan-health-care-logo-molina-healthcare-logo-5a737cd3408777.6855993915175180352643.png";
+import optima from "../../assets/images/4516741cOptum-logo-ora-RGB.webp"
+import horizon from '../../assets/images/horizon-logo.webp';
+import umr from '../../assets/images/umr-logo.webp';
 import unitedH from "../../assets/images/United-Healthcare-Logo.png";
 import BottomContact from '../Bottom-Contact/bottom-contact';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
@@ -29,9 +30,10 @@ function Insurance() {
                     <LazyLoadImage src={beacon} alt="anthem logo" />
                     <LazyLoadImage src={blueCross} alt="anthem logo" />
                     <LazyLoadImage src={cigna} alt="anthem logo" />
-                    <LazyLoadImage src={MHN} alt="anthem logo" />
-                    <LazyLoadImage src={molina} alt="anthem logo" />
-                    <LazyLoadImage src={unitedH} alt="anthem logo" />
+                    <LazyLoadImage src={optima} alt="logo" />
+                    <LazyLoadImage src={horizon} alt="logo" />
+                    <LazyLoadImage src={unitedH} alt="logo" />
+                    <LazyLoadImage src={umr} alt="logo" />
                 </div>
             </Fade>
             <BottomContact />
