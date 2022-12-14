@@ -1,14 +1,15 @@
 #treatment-top {
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../../assets/images/ian-schneider-XJfHMPJ0e-g-unsplash.webp");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("../../assets/images/ian-schneider-XJfHMPJ0e-g-unsplash.webp");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
   color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    margin: 0px; 
-    padding: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 75px;
 }
 
 #treatment-top h1 {
@@ -123,130 +124,3 @@
   color: white;
   width: 40%;
 }
-
-/* Extra small devices */
-@media only screen and (min-width: 320px) and (max-width: 479px) {
-  #treatment-top p {
-    width: 100% !important;
-  }
-  
-  #treatmentTwo img {
-    display: none;
-  }
-  
-  #treatmentTwo {
-    padding: 25px;
-    justify-content: center;
-  }
-
-  #treatmentTwo-text {
-    width: 75%;
-  }
-  
-  #treatmentThree img {
-    display: none;
-  }
-  
-  #treatmentThree {
-    padding: 25px;
-    justify-content: center;
-  }
-
-  #treatmentThree-text {
-    width: 75%;
-  }
-  
-  #treatmentFour img {
-    display: none;
-  }
-  
-  #treatmentFour {
-    padding: 0px !important;
-  }
-  
-  #treatmentFive img {
-    display: none;
-  }
-  
-  #treatmentFive {
-   padding: 20px !important;
-  }
-
-}
-
-/* Portrait tablets and large phones */
-@media only screen and (min-width: 480px) and (max-width: 768px) {
-
-  #treatmentTwo img {
-    display: none;
-  }
-
-  #treatmentTwo-text {
-    width: 75%;
-  }
-
-  #treatmentTwo-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentTwo-text p {
-    font-size: 10px;
-  }
-
-  #treatmentThree-text {
-    width: 75%;
-  }
-
-  #treatmentThree img {
-    display: none;
-  }
-
-  #treatmentThree-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentThree-text p {
-    font-size: 10px;
-  }
-
-  #treatmentFour-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentFour-text p {
-    font-size: 10px;
-  }
-
-  #treatmentFive-text h3 {
-    font-size: 15px;
-  }
-
-  #treatmentFive-text p {
-    font-size: 12px;
-  }
-
-  #treatmentFive-text li {
-    font-size: 10px;
-  }
-}
-
-/* Landscape tablets, 769px + */
-@media only screen and (min-width: 769px) and (max-width: 940px) {
-
-  #treatmentTwo img {
-    display: none;
-  }
-
-  #treatmentTwo-text {
-    width: 75%;
-  }
-
-  #treatmentThree img {
-    display: none;
-  }
-
-  #treatmentThree-text {
-    width: 75%;
-  }
-}
-
