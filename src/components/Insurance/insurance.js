@@ -11,7 +11,6 @@ import horizon from '../../assets/images/horizon-logo.webp';
 import umr from '../../assets/images/umr-logo.webp';
 import unitedH from "../../assets/images/United-Healthcare-Logo.png";
 import BottomContact from '../Bottom-Contact/bottom-contact';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 function Insurance() {
@@ -28,16 +27,16 @@ function Insurance() {
             </div>
             <Fade up>
                 <div id="insurance-logos">
-                    <LazyLoadImage src={aetna} alt="logo" />
-                    <LazyLoadImage src={anthem} alt="logo" />
-                    <LazyLoadImage src={beacon} alt="logo" />
-                    <LazyLoadImage src={blueCross} alt="logo" />
-                    <LazyLoadImage src={cigna} alt="logo" />
-                    <LazyLoadImage src={horizon} alt="logo" />
-                    <LazyLoadImage src={optima} alt="logo" />
-                    <LazyLoadImage src={optum} alt="logo" />
-                    <LazyLoadImage src={umr} alt="logo" />
-                    <LazyLoadImage src={unitedH} alt="logo" />
+                    <img src={aetna} alt="logo" />
+                    <img src={anthem} alt="logo" />
+                    <img src={beacon} alt="logo" />
+                    <img src={blueCross} alt="logo" />
+                    <img src={cigna} alt="logo" />
+                    <img src={horizon} alt="logo" />
+                    <img src={optima} alt="logo" />
+                    <img src={optum} alt="logo" />
+                    <img src={umr} alt="logo" />
+                    <img src={unitedH} alt="logo" />
                 </div>
             </Fade>
             <BottomContact />

@@ -3,7 +3,6 @@ import Fade from 'react-reveal/Fade';
 import moonlightOne from "../../assets/images/xpanda.webp";
 import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.webp";
 import BottomContact from '../Bottom-Contact/bottom-contact';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function Treatment() {
 
@@ -24,7 +23,7 @@ function Treatment() {
             </div>
             <div id="treatmentTwo">
                 <Fade left>
-                    <LazyLoadImage src={moonlightOne} alt="moonlight landscape"/>
+                    <img src={moonlightOne} alt="moonlight landscape"/>
                 </Fade>
                 <Fade right>
                     <div id="treatmentTwo-text">
@@ -74,7 +73,7 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <LazyLoadImage src={veniceCanal} alt="Venice Canals" />
+                    <img src={veniceCanal} alt="Venice Canals" />
                 </Fade>
             </div>
             <BottomContact />

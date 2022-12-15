@@ -3,7 +3,6 @@ import splashVid from "../../assets/video/jt-footage.mp4";
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { FaHandHoldingHeart, FaBriefcaseMedical, FaSwimmer } from "react-icons/fa";
 import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.webp";
 import BottomContact from '../Bottom-Contact/bottom-contact';
@@ -89,7 +88,7 @@ function Home() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <LazyLoadImage id="choose-us-image" src={recreation} alt="recreation"/>
+                    <img id="choose-us-image" src={recreation} alt="recreation"/>
                 </Fade>
             </div>
         <BottomContact />

@@ -2,7 +2,7 @@ import "./footer.css";
 import footerLOGO from "../../assets/images/ovbh_placeholder-1-01.png";
 import { Link } from 'react-router-dom';
 import Nav from 'react-bootstrap/Nav';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Footer() {
 
@@ -15,7 +15,7 @@ function Footer() {
 
     return (
         <section id="footer">
-                <LazyLoadImage id="footer-logo" src={footerLOGO} alt="footer logo" />
+                <img id="footer-logo" src={footerLOGO} alt="footer logo" />
             <Nav id="footer-navLinks">
                 <Nav.Item>
                     <Nav.Link>
