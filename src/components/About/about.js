@@ -3,6 +3,8 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import VW from '../../assets/images/matt-jones-dgLp5y_Jhuw-unsplash.webp';
 import BottomContact from '../Bottom-Contact/bottom-contact';
+import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function About() {
 
@@ -27,7 +29,7 @@ function About() {
             </div>
             <div id="aboutTwo">
                 <Fade left>
-                    <img src={VW} alt="van" />
+                    <LazyLoadImage src={VW} alt="van" />
                 </Fade>
                 <Fade right>
                     <div id="aboutTwo-text">

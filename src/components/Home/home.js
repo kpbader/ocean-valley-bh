@@ -1,10 +1,12 @@
 import "./home.css";
+import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import splashVid from "../../assets/video/jt-footage.mp4";
 import Fade from 'react-reveal/Fade';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 import { FaHandHoldingHeart, FaBriefcaseMedical, FaSwimmer } from "react-icons/fa";
-import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.webp";
+import recreation from "../../assets/images/pawan-thapa-38dVG7wNAow-unsplash.jpg";
 import BottomContact from '../Bottom-Contact/bottom-contact';
 
 
@@ -23,7 +25,7 @@ function Home() {
                 <video src={splashVid} autoPlay muted loop playsInline className='video-bg' />
                 <Fade up>
                     <div id="home-splash-text">
-                        <h2>Find Healing. Find Recovery. Find Peace of mind.</h2>
+                        <h2>Healing. Recovery. Peace of mind.</h2>
                         <button id="home-splash-btn">
                             <Link to="/contact">Get Help Now</Link>
                         </button>
@@ -88,7 +90,7 @@ function Home() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img id="choose-us-image" src={recreation} alt="recreation"/>
+                    <LazyLoadImage id="choose-us-image" src={recreation} alt="recreation"/>
                 </Fade>
             </div>
         <BottomContact />

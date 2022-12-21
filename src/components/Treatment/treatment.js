@@ -1,8 +1,11 @@
 import "./treatment.css";
 import Fade from 'react-reveal/Fade';
 import moonlightOne from "../../assets/images/xpanda.webp";
-import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.webp";
+import veniceCanal from "../../assets/images/roberto-nickson-b650UcXvYUk-unsplash.jpg";
 import BottomContact from '../Bottom-Contact/bottom-contact';
+import React from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
 
 function Treatment() {
 
@@ -23,7 +26,7 @@ function Treatment() {
             </div>
             <div id="treatmentTwo">
                 <Fade left>
-                    <img src={moonlightOne} alt="moonlight landscape"/>
+                    <LazyLoadImage src={moonlightOne} alt="moonlight landscape"/>
                 </Fade>
                 <Fade right>
                     <div id="treatmentTwo-text">
@@ -73,7 +76,7 @@ function Treatment() {
                     </div>
                 </Fade>
                 <Fade right>
-                    <img src={veniceCanal} alt="Venice Canals" />
+                    <LazyLoadImage src={veniceCanal} alt="Venice Canals" />
                 </Fade>
             </div>
             <BottomContact />
